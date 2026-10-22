@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Builds
+dist/
+dist-electron/
+release/
+build/icon.png
+build/icon-source.*
+
+# Tooling / OS
+.DS_Store
+*.log
+.vscode/
+.idea/
+*.tsbuildinfo
+
+# Local secrets / machine state (never commit)
+.env
+.env.*
+*.pem
+*.key
+routers.json
